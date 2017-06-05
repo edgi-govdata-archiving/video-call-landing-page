@@ -1,0 +1,39 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.min.css" />
+</head>
+<body>
+<a class="github-fork-ribbon" href="https://github.com/CivicTechTO/event-metadata-parser" title="Fork me on GitHub">Fork me on GitHub</a>
+{% filter markdown %}
+# Video Call Landing Page
+
+This small app creates a landing page that participants can be sent
+through prior to joining a video call, relaying important info.
+
+Useful for:
+
+- Making a dislaimer about call recording.
+- Other things?
+
+### Supported Platforms
+
+- Anything!
+
+
+
+
+## Usage
+
+Enter the URL of this page (eg.
+`https://event-metadata-parser.herokuapp.com/`) followed by the event source
+URL (with no spaces in-between) to extract the event data.
+
+For example, for the event URL at
+`https://www.eventbrite.ca/e/women-win-to-2018-launch-tickets-34703027690`
+the corresponding parsed data URL is
+`https://event-metadata-parser.herokuapp.com/https://www.eventbrite.ca/e/women-win-to-2018-launch-tickets-34703027690`
+— you can view it in browser.
+
+{% endfilter %}
+</body>
+<html>

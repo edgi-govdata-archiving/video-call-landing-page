@@ -1,6 +1,7 @@
 from flask import Flask, request, render_template, jsonify
 from flaskext.markdown import Markdown
 import json
+import re
 import requests
 import urllib
 from scrapy.selector import Selector
@@ -17,7 +18,14 @@ def process(url):
     # Reconstitute url querystrings that flask got greedy with
     querystrings = urllib.parse.urlencode(request.args)
     url = url + '?' + querystrings
-    return render_template('landing-page.html', call_url=url)
+    template_kwargs = {'call_url': url}
+    if 'zoom.us' in url:
+        m = re.match('.*zoom.us/j/(\d+).*', url)
+        mid = m.group(1)
+        # See: https://stackoverflow.com/a/23439106
+        mid = ' '.join([mid[i:i+3] for i in range(0, len(mid), 3)])
+        template_kwargs.update({'meeting_id': mid})
+    return render_template('landing-page.html', **template_kwargs)
 
 def get_data(url):
     r = requests.get(url)

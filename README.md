@@ -4,14 +4,14 @@ This small app creates a landing page that participants can be sent
 through prior to joining a video call, relaying important info.
 
 Useful for:
-- Making a dislaimer about call recording.
-- Explaining nuance of how call will work.
+- Making a disclaimer about call recording.
+- Explaining nuances of how call will work.
 - Other things? (Please [create an issue][issue] for any desired new feature!)
 
-### Supported Platforms
+## Supported Platforms
 
-- Zoom Meetings
-- Other platforms easily supported by changing text instructions!
+- [Zoom](https://zoom.us) Meetings
+- Other platforms are easily supported by changing the text instructions!
 
 ## Development
 

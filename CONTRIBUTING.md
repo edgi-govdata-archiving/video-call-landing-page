@@ -9,6 +9,7 @@ We are **using [Heroku Review Apps][review-apps]**, and have enabled _automatic 
 **So if you have push access on the upstream repo, this is a great reason to work from there.** When you create a pull request, Heroku will drop a link within the comments, linking to your newly deployed preview app. The app will be updated with each new commit, and will be destroyed when the pull request is merged or closed.
 
 <!-- Links -->
-[edgi-conduct]: https://github.com/edgi-govdata-archiving/overview/blob/master/CONDUCT.md
-[edgi-contributing]: https://github.com/edgi-govdata-archiving/overview/blob/master/CONTRIBUTING.md
+[edgi-conduct]: https://github.com/edgi-govdata-archiving/overview/blob/
+/CONDUCT.md
+[edgi-contributing]: https://github.com/edgi-govdata-archiving/overview/blob/main/CONTRIBUTING.md
 [review-apps]: https://devcenter.heroku.com/articles/github-integration-review-apps

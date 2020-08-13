@@ -1,4 +1,4 @@
-[![Code of Conduct](https://img.shields.io/badge/%E2%9D%A4-code%20of%20conduct-blue.svg?style=flat)](https://github.com/edgi-govdata-archiving/overview/blob/master/CONDUCT.md)
+[![Code of Conduct](https://img.shields.io/badge/%E2%9D%A4-code%20of%20conduct-blue.svg?style=flat)](https://github.com/edgi-govdata-archiving/overview/blob/main/CONDUCT.md)
 
 # Video Call Landing Page
 
@@ -35,7 +35,7 @@ including our use of **Heroku Review Apps**.
 
 ## Deployment
 
-* We auto-deploy the `master` branch to Heroku, so merging a pull
+* We auto-deploy the `main` branch to Heroku, so merging a pull
   request deploys it!
 
 <sub>keywords: splash page</sub>
